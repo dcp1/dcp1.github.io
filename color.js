@@ -24,7 +24,7 @@ function reset(){
 	pickedcolor = pickColor();
 	colorDisplay.textContent = pickedcolor;
 	resetButton.textContent="New Colors";
-	messageDisplay.textContent="";
+	messageDisplay.textContent="Click the box below!";
 	for (var i=0; i < squares.length; i++){//there are six squares
 		if(colors[i]){	//if there is no color for a square, display will be none
 			//if previous selection was three squares rest of three were reset to display = none.
@@ -36,7 +36,7 @@ function reset(){
 				//these squares with none display need to be reset to 'block'
 		}
 	}
-	h1.style.background = "steelblue";
+	h1.style.background = "#232323";
 }//y
 console.log(resetButton);
 resetButton.addEventListener("click", function(){
@@ -54,7 +54,7 @@ for(var i = 0; i < squares.length; i++){
 	var clickedColor = this.style.backgroundColor;
 		if(clickedColor === pickedcolor){
 		//console.log("correct color");
-		messageDisplay.textContent = "Congratualtions!";
+		messageDisplay.textContent = "Congratulations!";
 		resetButton.textContent="Play Again";
 		changeColors(clickedColor);
 		h1.style.background=clickedColor;
