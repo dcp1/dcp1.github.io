@@ -15,7 +15,7 @@ font-family: "Montserrat","Avenir";
 	border-radius: 10px;
 	transition: background .5s;
 	-webkit-transition:background .5s;
-	=mpz-transition:background .5s;
+	-mpz-transition:background .5s;
 	outline: silver;
 }
 
