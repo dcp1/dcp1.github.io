@@ -1,18 +1,18 @@
 body {
 background-color: #232323;
 margin:0px;
-font-family: "Montserrat","Avenir";
+font-family: "arial", "Montserrat","Avenir";
 
 }
 
 
 .square {
-	width:30%;
+	width:13%;
 	background: purple;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1.5%;
-	border-radius: 10px;
+	padding-bottom: 27%;
+	float: right;
+	margin: 1%;
+	border-radius: 3px;
 	transition: background .5s;
 	-webkit-transition:background .5s;
 	-mpz-transition:background .5s;
@@ -30,7 +30,7 @@ h1 {
 	text-align: center;
 	background-color: #232323;
 	margin: 0px;
-	font-weight: normal;
+	font-weight: 200;
 	
 	line-height: 1;
 	padding: 20px 0;
@@ -48,7 +48,7 @@ h1 {
 }
 
 #colorDisplay {
-	font-size: 150%;
+	font-size: 120%;
 }
 button {
 	border: none;
