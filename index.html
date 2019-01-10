@@ -1,243 +1,350 @@
 <!DOCTYPE html>
 <html>
-<title>Dineshpatel>frontpage>index.html for dineshpatel.ga with freenom</title>
+<title>Dinesh Patel 2019</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
-<link rel="stylesheet" type="text/css" href="frontpage.css">
+<link rel="stylesheet" type="text/css" href="index.css">
 
 
-<body id="myPage">
+<body class="w3-black">
 
-<!-- Sidebar on click -->
-<!--
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-
-
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-    <i class="fa fa-remove"></i>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner remove x at the end of fa fa-   in <i> tags to show the logo-->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Home</p>
   </a>
-  <a href="profile.html" class="w3-bar-item w3-button">Profile1</a>
-  <a href="color.htm" class="w3-bar-item w3-button">Projects</a>
-  <a href="#tech" class="w3-bar-item w3-button">Technologies</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-  </nav>
- end of sidebar on-click-->
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>About</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <p>Projects</p></a>
+  <a href="#resume" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Resume</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <p>Contact</p>
+  </a>
+</nav>
 
-<!-- Navbar -->
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacityx xw3-hover-black w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">Home</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">About</a>
+    <a href="#projects" class="w3-bar-item w3-button" style="width:20% !important">Projects</a>
+    <a href="#resume" class="w3-bar-item w3-button" style="width:20% !important">Resume</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">Contact</a>
+  </div>
+</div>
 
-<div class="w3-top">
- <div class="w3-bar w3-theme-d2 w3-teal  w3-left-align">
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small w3-text-sand w3-opacity">I'm Dinesh Patel</span></h1>
+    <p class="w3-text-sand">A JavaScript Web Developer</p>
+    <img src="DCP-B%26W-2019-cropped.jpg" alt="boy" class="w3-image" width="400px" height="400px">
+  </header>
+</div> <!--end of main -->
 
-<!--Burger icon 'fa fa-bar' fas "fa-redo' on top right for small screen -->
-<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <!-- About starts -->
+  <div class="w3-content w3-justify w3-text-light-grey  w3-padding-64" id="about">
 
-<!-- Top menu with large screen-->
-  <a href="#" class="w3-bar-item w3-button w3-hover-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="profile.html" class="w3-bar-item w3-button w3-hide-small w3-hover-teal">Profile</a>
-  
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button" title="Notifications">Projects <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-        <a href="color.html" class="w3-bar-item w3-button w3-hide-small w3-hover-teal">ColorQuizz</a>
-        <a  href="https://www.easymail-duluth.com" class="w3-bar-item w3-button">Easymail</a>
-      </div>
+    <h2 class="w3-text-sand w3-opacity">My Story</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-text-sand">
+    <p>Determined to revive my business, Easymail, during 2008 recession, I developed my first website (www.easymail-duluth.com). I taught myself new skills in web development, Search Engine Optimization (SEO), and Google Analytics -- effectively turning around my retail business. </p>
+
+    <p>At present, I am looking for a lead, referral, and/or suggestions to help me leverage my background and skills to land a role as a JavaScript Web Developer.
+    </p>
     </div>
+  </div> <!-- about ends -->
 
-  <a href="#tech" class="w3-bar-item w3-button w3-hide-small w3-hover-teal">Technologies</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-teal">Contact</a>
-
-
-
-
-<!-- rightmost on top bar, default is Dinesh Patel if date is not available-->
-  <a href="#" id="#date" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white" title="Search">-Dinesh Patel</a>
-
- </div>
-
-
-
- 
-  <!-- Navbar on small screens upon clicking burger icon -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="profile.html" class="w3-bar-item w3-show w3-button">Profile</a>
-    <a  href="https://www.easymail-duluth.com" class="w3-bar-item w3-button">Easymail</a>
-<a  href="color.html" class="w3-bar-item w3-button">ColorQuizz</a>
-    <a href="#tech" class="w3-bar-item w3-button">Technologies</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    
+    <!-- skills starts -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="skills">
+    <h2 class="w3-text-sand w3-opacity">My Skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-text-sand">
+    <p class="w3-wide">HTML</p>
+    <p class="w3-wide">CSS: Bootstrap3, Bootstrap4, W3.CSS, SemanticUI</p>
+    <p class="w3-wide">JavaScript</p>
+    <p class="w3-wide">jQuery</p>
+    <p class="w3-wide">RESTful Routing/API</p>
+    <p class="w3-wide">Node.js: NPM, Express.js</p>
+    <p class="w3-wide">MongoDB</p>
+    <p class="w3-wide">Git/GitHub</p>
+    <p class="w3-wide">Sublime3</p>
+    <p class="w3-wide">Cloud9</p>
   </div>
-</div>
+  </div><!--end of skills -->
 
 
-<!-- Image Header 
-<div class="w3-display-container  w3-circle w3-animate-opacity">
-  <img src="https://source.unsplash.com/random/?spectrums" alt="spectrums" style="width:100%;min-height:350px;max-height:350px">
--->
-  <div class="w3-display-container  w3-circle w3-animate-opacity">
-  <img src="DCP-Drawing1118.jpg" alt="DCP-Drawing1118.jpg" style="width:100%;min-height:350px;max-height:350px">
-<!--
-<div class="w3-bar w3-theme-d2 w3-teal w3-center-align">
-  <span class="padding:5px">  Refresh the page to get a new image. Courtesy of www.unsplash.com </span>
--->
-</div>
-</div>
+  <!-- projects starts w3-content -->
+  <div class="w3-content  w3-justify w3-text-grey w3-padding-64" id="projects">
+    <h2 class="w3-text-sand w3-opacity">My Projects</h2>
 
+    <hr style="width:200px" class="w3-opacity">
+    <br>
 
-<div  class="w3-container ">
-
-    <div class=" w3-center w3-panel ">
-    <iframe src="profile.html" height="250px" width="100%"  class="w3-border-1 w3-border-0 w3-hover-border-red w3-center w3-panel w3-card-4"> </iframe>
-    </div>
-</div>
-
-
-<div  id="tech" class="w3-container w3-display-container">
-  <div id="techcard" class=" w3-center w3-teal w3-panel w3-card-2">
-  
-  <div  class=" iconbox w3-large w3-theme-d2 w3-teal w3-cell-row">
-
-    <p class="icons   w3-teal "> <i class="w3-padding fab fa-html5 w3-large" ></i> HTML5 </p>
-
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-css3 w3-large"></i> Bootstrap </p>
-
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-css3 w3-large"></i> W3.CSS </p>
-
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-js w3-large"></i> JavaScript </p>
-
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-js w3-xlarge"></i> JQuery </p>
-<p class="icons   w3-teal"> <i class="w3-padding fas fa-code w3-xlarge"></i> RESTful API </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-node w3-xlarge"></i> Node.js </p>
-
-    
-    
-    
-  </div>
-
-  <div class="w3-padding w3-large w3-theme-d2 w3-teal w3-cell-row ">
-    <p class="icons   w3-teal"> <i class="w3-padding fas fa-code w3-xlarge"></i> Express </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fas fa-database w3-xlarge"></i> MongoDB </p>
-
-    <p class="icons  4 w3-teal"> <i class="w3-padding fab fa-git w3-xlarge"></i> Git </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-github w3-xlarge"></i> Github </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fas fa-edit w3-xlarge"></i> Sublime </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fab fa-codepen w3-xlarge"></i> CodePen </p>
-    <p class="icons   w3-teal"> <i class="w3-padding fas fa-cloud w3-xlarge"></i> Cloud9 </p>
-  </div>
-  </div>
-</div>
-<!-- end of tech icons div -->
-
-<!-- starting project box 
-<div id="projects"class="w3-row-padding w3-padding-32">
-
-starting individual boxes -->
-<!--
-<!project1 starts: rightmost box -->
-<!--
-  <div class="w3-third w3-center" >
-    <a href="color.html" >
-      <div class="w3-card-4  w3-silver   padding:"0px"" id="project1">
-        <div class="w3-container  ">
-          <iframe src="color.html"  class="w3-hover-border-teal w3-border-gray w3-center w3-panel "> 
-          </iframe>
-        </div>
-      </div>
-    </a>
-  </div>
-  Project 1 end w3-third -->
-<!--
- Project 2 starts 
-<div class="w3-third w3-center" >
-     <a href="https://www.easymail-duluth.com" >
-      <div class="w3-card-4 w3-silver padding:"0px"" id="project2" >
-        <div class="w3-container">
-          <iframe src="https://www.easymail-duluth.com"  class=" w3-hover-border-teal w3-border-gray w3-center w3-panel "> 
-          </iframe>
-        </div>
-      </div>
-    </a>
-  </div>
-   -->
-  <!-- Project 2 ends --> 
- <!-- Project 3 starts -->
-<!--
-<div class="w3-third w3-center " >
-  <div>
-  <a href="color.html" >
-      <div class="w3-card-4 w3-silver padding:"0px"" id="project3" >
-        <div class="w3-container  ">
-          <iframe src="color.html"  class="  w3-hover-border-teal w3-border-white w3-center w3-panel "> 
-          </iframe>
-        </div>
-      </div>
-    </a></div>
-  </div>
-   Project 3 ends
+    <!-- Grid for photos -->
      
- 
 
-</div> end of Project Box-->
+    <div class="w3-row-padding" style="margin:0 -16px"><!-- first set starts-->
 
-<!-- starts contact box-->
-<!--
-<div class="w3-container w3-center-align w3-padding-14 " id="contact1">
-  <div class="w3-row">
+      <div class="w3-half" style="max-width:300px"><!-- image of first set on left -->
+       <div class="container">
+          <div class="vertical-center">
+            <a href="movies.html">
+            <img class="project-image" src="https://image.tmdb.org/t/p/w500//fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg" style="width:100% ">
+          </a>
+          </div>
+        </div>
+      </div>  
+      
+        <div class="w3-half" style="max-width:300px" ><!-- description on right of first image -->
+          <div class="container">
+            <div class="vertical-center">
+              <div class="project-desc w3-text-sand">
+               
+                <p><strong>Take a break!</strong> </p>
+                <p>Go see one of the top rated movies of this week.</p>
+                <p>With a free API from TMDb and dom manipulation I am presenting six top rated movies for you.
+                </p>
 
-    <div class="w3-col m4">
-    <div class="w3-padding-14 w3-center-align"><span class="w3-large w3-border-teal ">Contact me today...</span></div>
-      
-      
-      <p><i class="fa fa-map-marker w3-margin-right w3-text-teal w3xlarge"></i>Cumming, Ga</p>
-      <p><i class="fa fa-mobile-alt w3-text-teal w3-margin-right w3-xlarge"></i>404-513-6072 </p>
-      <p><i class="fa fa-envelope-square w3-margin-right w3-text-teal w3-xlarge"></i>dcpatel1@hotmail.com</p>
-    </div> end of conatct me toda box -->
-    
-<!--
-<div class="w3-col m4">
-    <div id="map" class="w3-padding-14" w3-center-align></div>
-      
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52796.21075678995!2d-84.16564911439792!3d34.203526974464125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f58523717bebd7%3A0x1f85f06242e1c19d!2sCumming%2C+GA!5e0!3m2!1sen!2sus!4v1542133987173" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> 
-      
-    </div> end of map -->
+                <button id="btn1" type="button" class="w3-button  w3-border w3-small w3-round w3-hover-black"  style="border:none;">
+              <a href="movies.html" target="frame1" onclick="document.getElementById('frame-div1').style.cssText = ''">Get your movie</a>
+            </button>
 
-<!--
-    <div id="weather" class="w3-col m4">
-      <div class="w3-container w3-text-teal w3-padding-14 " >      
-        <div id="cont_20f6125bbc9f1c2ae0ff93677331da18"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/20f6125bbc9f1c2ae0ff93677331da18"></script></div>   
+             
+              </div>
+            </div >
+          </div >
+        </div>
+
+    </div><!-- end of first set of image and its decription -->
+    <br>
+<div id="frame-div1" style="display:none;">
+      <button type="button" class="w3-button w3-border w3-small w3-round w3-hover-black" onclick="document.getElementById('frame-div1').style.display='none'" style="border:none;">Click to close.
+      </button>
+       <iframe src="" width="1200px" height="700px" style="border:none;" name="frame1"></iframe>
+  </div>
+
+    <!-- sencond set of image and description starts -->
+
+<br>
+   
+   
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half" style="width:300px">
+        <div class="container"> 
+          <div class="vertical-center">
+             <img  src="colorGame.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-half " style="width:300px">
+        <div class="container">
+          <div class="vertical-center">
+            <div class="project-desc w3-text-sand">
+                <p><strong>Play time! </strong></p>
+                <p>Play this wonderful RGB color game. You will like it.</p> 
+                <p>I have randomized rgb colos and applied DOM to develope this color-quizz.</p> 
+          
+            <button id="btn2" type="button" class="w3-button  w3-border w3-small w3-round w3-hover-black"  style="border:none;">
+              <a href="color.html" target="frame2" onclick="document.getElementById('frame-div2').style.cssText = ''">Click to play ColorGame</a>
+            </button>
+
+
+            </div>
+          </div>
+        </div>
       </div>
    
-    </div> end of weather -->
-  <!--
-  </div>
-</div> end of contact box -->
--->
+    </div><!-- End second set -->
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-10 w3-theme-d2 w3-center">
-  <!--
-  <h4></h4>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
--->
-  <p id="contact"> Dinesh Patel, 404-513-6072, dcpatel1@hotmail.com </p>
-<!--
-  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
-    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
--->
-</footer>
+    <div id="frame-div2" style="display:none;">
+      <button type="button" class="w3-button w3-border w3-small w3-round w3-hover-black" onclick="document.getElementById('frame-div2').style.display='none'" style="border:none;">Click to close.
+      </button>
+       <iframe src="" width="100%" height="450px" style="border:none;" name="frame2"></iframe>
+    </div>
 
-<script type="text/javascript" src="frontpage.js"></script>
+    <div id="frame-div3" style="display:none;">
+      <button type="button" class="w3-button w3-border w3-small w3-round w3-hover-black" onclick="document.getElementById('frame-div3').style.display='none'" style="border:none;">Click to close.
+      </button>
+       <iframe src="" width="100%" height="450px" style="border:none;" name="frame3"></iframe>
+    </div>
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half" style="width:300px">
+        <div class="container">
+          <div class="vertical-center">
+            <a href="http://www.easymail-duluth.com/">
+            <img src="Easymail.png" style="width:100%">
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-half" style="width:300px">
+        <div class="container">
+          <div class="vertical-center">
+            <div class="project-desc w3-text-sand">
+              
+              <p><strong>The Beginning! </strong></p>
+              <p> This is where all started during 2008 recession.</p> 
+              <p> I developed this site and applied SEO-Google Analytics which helped me to turn around the business, which I eventually sold it.</p>
+              <p><i>Note: I am no longer affiliated with Easymail or this website.</i></p>
+              <button id="btn3" type="button" class="w3-button  w3-border w3-small w3-round w3-hover-black"  style="border:none;">
+              <a href="http://www.easymail-duluth.com/" target="frame3" onclick="document.getElementById('frame-div3').style.cssText = ''">Visit Easymail</a>
+              </button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </div><!-- End third set of image and description -->
+  </div><!-- end of my projects -->
+
+    <!-- resume starts -->
+   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="resume">
+    <h2 class="w3-text-sand w3-opacity">My Resume</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    
+<pre>
+  <div id="resume">
+<strong>Dinesh C. Patel</strong>
+Greater Atlanta, GA
+404-513-6072
+<a href="http://www.linkedin.com/in/dinesh-patel-gets-job-done/">
+www.linkedin.com/in/dinesh-patel-gets-job-done
+</a>
+<a href="http://dcp1.github.io/">
+http://dcp1.github.io
+</a>
+
+
+<strong>JavaScript Developer</strong>
+
+Robust JavaScript Web Developer who has leveraged competencies and skilled gained by transforming engineering products from “ideation” to “commercialization” through prototyping, quality analysis, and the exploration and application of new technologies for design optimization.  
+
+<strong>Skills: </strong>
+• HTML
+• CSS: Bootstrap3, Bootstrap4, W3.CSS, SemanticUI
+• JavaScript
+• jQuery
+• Node.js
+• Express.js
+• RESTful API/Routing
+• MongoDB
+• Git/GitHub
+
+<strong>Competencies:</strong>
+• Collaboration, 
+• Project Management
+• Process Improvements
+• Problem Analysis
+• Six Sigma
+
+<strong>Highlights: </strong>
+• Designed and developed a website for a shipping business, Easymail, to help customers track UPS and FedEx shipments. 
+• Increased market penetration by applying Search Engine Optimization (SEO).
+• Applied jQuery to build an amazing RGB-color game.
+• Built applications with Node.js on Express.js framework.
+• Developed Node.js application with RESTful API and deployed on Heroku and GitHub.
+• Deployed node.js applications integrating RESTful API on Heroku.
+• Published projects including node.js applications and RESTful APIs on GitHub.
+• Experienced to apply CSS frameworks like Semantic UI, W3.CSS, and Bootstrap.
+• Accomplished DOM and CSS manipulation through JQuery.
+• Converted “Proof-of-Concept” ideas into functional and operational systems.
+• Proven skills to establish methodologies and processes to perform lifecycle tests to verify, validate, and establish various criteria for given components and systems.
+• Experienced to present technical information to technical and non-technical audience.
+• Excellent ability to apply analytical, diagnostic, and problem solving skills in fast-paced and cross-functional team.
+
+<strong>Professional Experience:  </strong>
+
+<strong>The Coca-Cola Company,</strong> Atlanta,GA                                                                             
+Systems Design Engineer
+Principal Engineering Technician
+Engineering Technician
+1993-2018
+
+<strong>Collaboration</strong>
+• Identified critical technical challenges involving product sold-out, calibration, beverage quality, reliability of components, and integration of software. 
+• Helped build a team of SMEs to address those key technical challenges.
+Result: Rapid progression of project from ‘Ideation’ to a ‘Field Test’.
+
+<strong>Project Management</strong>
+• Defined software, mechanical, and beverage quality-criteria, developed and wrote SOPs to evaluate those criteria.
+Result: Successful and timely product-launch.
+
+<strong>Process Improvements and Procedures</strong>
+• Developed and performed various performance evaluation tests to understand dispensability and beverage quality.
+Result: Enabled commercialization of Freestyle dispenser with about 50,000 plus units.
+
+<strong>Problem Analysis</strong>
+• Designed test-configurations composed of controls, sensors, and instruments to perform various reliability tests. 
+Result: Successful executions of various R & D projects through years.
+
+
+<strong>RDCP, INC., Atlanta, Georgia</strong>                                      
+Entrepreneur/Operator
+2008-2014
+• Designed and developed a website for a shipping business, Easymail, to help customers track UPS and FedEx shipments. 
+• Increased cash-flow by 100% in 5 years by introducing new products and services, cost reduction, pay-roll management, and re-negotiating various leases and contracts.
+Result: Increased market penetration by applying Search Engine Optimization (SEO).
+
+<strong>Education:</strong>
+Southern College of Technology, Atlanta, GA
+Bachelor of Science, Mechanical Engineering Technology
+
+<strong>Training:</strong>
+Six Sigma Green Belt
+Project Management Training
+The Web Developer Bootcamp
+</div><!-- id=resume ends -->
+</pre>   
+    
+    
+  <button class="w3-button w3-black w3-padding-large w3-section"><a href="DineshPatel-Resume1.doc" download>
+      <i class="fa fa-download"></i> Download .doc Resume</a>
+    </button>
+<button class="w3-button w3-black w3-padding-large w3-section"><a href="DineshPatel-Resume1.pdf" download>
+      <i class="fa fa-download"></i> Download .pdf Resume</a>
+    </button>
+
+</div><!-- end of My Resume section -->
+  <!-- Contact Section -->
+
+  <div class="w3-content w3-justify w3-text-light-grey  w3-padding-64" id="about">
+
+    <h2 class="w3-text-sand w3-opacity">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-text-sand">
+    <p> Dinesh C. Patel</p>
+      <p> Greater Atlanta, GA</p>
+      <p>404-513-6072</p>
+      <p> dcpatel1@hotmail.com</p>
+      <p> www.linkedin.com/in/dinesh-patel-gets-job-done</p>
+    </div>
+  </div>
+
+ <!-- End Contact Section -->
+  
+    <!-- Footer -->
+  `
+
+<!-- END PAGE CONTENT -->
+</div>
+
 </body>
 </html>
