@@ -1,0 +1,78 @@
+Dinesh C. Patel
+Greater Atlanta, GA
+404-513-6072
+www.linkedin.com/in/dinesh-patel-gets-job-done
+http://dcp1.github.io
+
+JavaScript Developer
+
+Robust JavaScript Web Developer who has leveraged competencies and skills gained by transforming engineering products from “ideation” to “commercialization” through prototyping, quality analysis, and the exploration and application of new technologies for design optimization.  
+
+Skills: 
+HTML, CSS: Bootstrap, W3.CSS, Semantic UI, JavaScript: jQuery, Node.js, NPM, Express, REST API, RESTful Routing, Git /GitHub, HEROKU, MongoDB, Sublime Text 3, Cloud9
+
+Competencies:
+Collaboration, Project Management, Process Improvements, Problem Analysis, Six Sigma
+
+Highlights: (www.dineshpatel.ga, www.dcp1.github.io)
+* Designed and developed a website for a shipping business, Easymail, to help customers track UPS and FedEx shipments. 
+* Increased market penetration by applying Search Engine Optimization (SEO).
+* Applied jQuery to build an amazing RGB-color game.
+* Built applications with Node.js on Express.js framework.
+* Developed Node.js application with RESTful API and deployed on Heroku and GitHub.
+* Experienced to apply CSS frameworks like Semantic UI, W3.CSS, and Bootstrap.
+* Accomplished DOM and CSS manipulation through JQuery.
+* Converted “Proof-of-Concept” ideas into functional and operational systems.
+* Proven skills to establish methodologies and processes to perform lifecycle tests to verify, validate, and establish various criteria for given components and systems.
+* Experienced to present technical information to technical and non-technical audience.
+* Excellent ability to apply analytical, diagnostic, and problem solving skills in fast-paced and cross-functional team.
+
+Professional Experience:
+
+The Coca-Cola Company, Atlanta, GA                                                                                   1993-2018
+      Systems Design Engineer
+      Principal Engineering Technician
+      Engineering Technician
+
+   Collaboration
+* Identified critical technical challenges involving product sold-out, calibration, beverage quality, reliability of components, and integration of software. 
+* Helped build a team of SMEs to address those key technical challenges.
+Result: Rapid progression of project from ‘Ideation’ to a ‘Field Test’.
+
+
+
+
+   Project Management
+* Defined software, mechanical, and beverage quality-criteria, developed and wrote SOPs to evaluate those criteria.
+Result: Successful and timely product-launch.
+
+   Process Improvements and Procedures
+* Developed and performed various performance evaluation tests to understand dispensability and beverage quality.
+Result: Enabled commercialization of Freestyle dispenser with about 50,000 plus units.
+
+   Problem Analysis
+* Designed test-configurations composed of controls, sensors, and instruments to perform various reliability tests. 
+Result: Successful executions of various R & D projects through years.
+
+
+RDCP, INC., Atlanta, Georgia 	    					                       2008 – 2014
+   Entrepreneur/Operator
+* Designed and developed a website for a shipping business, Easymail, to help customers track UPS and FedEx shipments. 
+* Increased cash-flow by 100% in 5 years by introducing new products and services, cost reduction, pay-roll management, and re-negotiating various leases and contracts.
+   Result: Increased market penetration by applying Search Engine Optimization (SEO).
+
+Education:
+Southern College of Technology, Atlanta, GA
+Bachelor of Science, Mechanical Engineering Technology
+
+Training:
+Six Sigma Green Belt
+Project Management Training
+The Web Developer Bootcamp
+
+
+
+Dinesh Patel		Page 2	
+
+
+
